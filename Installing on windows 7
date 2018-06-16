@@ -23,5 +23,12 @@ Install the Chocolatey package manager by running this command for powershell:
 
 3. Click standard install.
 
+openHAB offers different UIs in its standard configuration: the Paper UI, 
+
+the Basic UI and the Classic UI (this has to be installed manually from within Paper UI or via config file).
+
+
+
+
    
         
