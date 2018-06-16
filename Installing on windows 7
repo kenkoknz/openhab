@@ -1,16 +1,16 @@
-Install in windows7 (update Jun18)
+Install in windows7: Ken Kok (updated Jun18) 
 
-two ways to install either download files, extract and install zulu
+Two ways to install either download files, extract and install zulu
 
 or Install with Chocolatey (I have tries thiis method and it works)
 
 Learnings: 
 
-1. had some problems with using cmd (admin) but using powershell(search powershell and right click as admin) seems to work ok
+1. I had some problems with using cmd (admin) but using powershell(search powershell and right click as admin) seems to work ok following the instruction script
 
- Right-click on the Start menu and select Command Prompt (admin) or Windows PowerShell (admin)
-    Install the Chocolatey package manager by running one of these commands:
-        If you opened a command prompt (cmd.exe) 
+Right-click on the Start menu and select Command Prompt (admin) or Windows PowerShell (admin),
+Install the Chocolatey package manager by running this command for powershell:
+        Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
         
         
 
