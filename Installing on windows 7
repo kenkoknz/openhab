@@ -1,0 +1,27 @@
+Install in windows7 (update Jun18)
+
+two ways to install either download files, extract and install zulu
+
+or Install with Chocolatey (I have tries thiis method and it works)
+
+Learnings: 
+
+1. had some problems with using cmd (admin) but using powershell(search powershell and right click as admin) seems to work ok
+
+ Right-click on the Start menu and select Command Prompt (admin) or Windows PowerShell (admin)
+    Install the Chocolatey package manager by running one of these commands:
+        If you opened a command prompt (cmd.exe) 
+        
+        
+
+2. It was not clear where openhab was installed, however searching the console log, I found the path in :C:\ProgramData\chocolatey\lib\openhab\tools 
+
+
+3. to start use explorer (enable view hiddenfiles) and nav to directory and run the start.bat
+
+4. go to a browse and enter local host:8080
+
+3. Click standard install.
+
+   
+        
