@@ -28,6 +28,9 @@ openHAB offers different UIs in its standard configuration: the Paper UI,
 the Basic UI and the Classic UI (this has to be installed manually from within Paper UI or via config file).
 
 
+1.https://chocolatey.org/install
+
+2.https://chocolatey.org/packages/openhab/2.3.0
 
 
    
